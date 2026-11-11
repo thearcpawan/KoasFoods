@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!--@head-->
+  <title>Assortment | Koas Foods</title>
+  <meta name="description" content="Search the Koas Foods wholesale catalogue: rice and grains, herbs and spices, cooking oils, dried and frozen fish, frozen meat, beverages and more.">
+  <meta property="og:title" content="Assortment | Koas Foods">
+</head>
+<body data-page="assortment">
+  <!--@header-->
+  <main id="main" class="catalogue">
+    <header class="catalogue__head">
+      <p class="eyebrow eyebrow--red">Assortment</p>
+      <h1 class="display" data-split>All categories</h1>
+      <div class="search">
+        <label class="sr-only" for="q">Search products</label>
+        <input id="q" type="search" placeholder="Search by product, brand or SKU" autocomplete="off" data-search>
+      </div>
+    </header>
+    <div class="catalogue__body">
+      <nav class="filters" aria-label="Filter by category" data-filters></nav>
+      <div>
+        <p class="catalogue__status" role="status" data-status>Loading products…</p>
+        <div class="grid" data-grid></div>
+        <div class="catalogue__empty" data-empty hidden>
+          <p>No products match that search.</p>
+          <p>We carry more than we list online. <a href="mailto:koasfoods@koasfoods.com?subject=Product%20enquiry">Ask us about it</a>.</p>
+        </div>
+        <div class="catalogue__sentinel" data-sentinel></div>
+      </div>
+    </div>
+  </main>
+  <!--@footer-->
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
