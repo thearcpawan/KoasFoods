@@ -1,5 +1,7 @@
 # Koas Foods website
 
+Website made by Pawandeep Singh, helping Koas Foods present itself with a professional, polished website.
+
 Built with Vite, GSAP (ScrollTrigger, SplitText, Flip), Lenis and Three.js.
 
 ## Run
